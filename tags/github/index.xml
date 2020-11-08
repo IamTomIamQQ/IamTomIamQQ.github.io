@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub on 蛤！我是部落格嗎？</title>
+    <link>https://IamTomIamQQ.github.io/tags/github/</link>
+    <description>Recent content in GitHub on 蛤！我是部落格嗎？</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 31 Oct 2020 23:59:59 +0800</lastBuildDate><atom:link href="https://IamTomIamQQ.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>蛤! 原來這不是篇未來文章</title>
+      <link>https://IamTomIamQQ.github.io/blog/test/</link>
+      <pubDate>Sat, 31 Oct 2020 23:59:59 +0800</pubDate>
+      
+      <guid>https://IamTomIamQQ.github.io/blog/test/</guid>
+      <description>Hello World
+蛤我不是阿柴阿
+一級標題 二級標題 ######六級的蛤，但我沒有空格所以沒成功
+我不是阿柴我滿腦子疑問
+ 阿柴你在哪裡 招喚阿柴 阿柴~~!</description>
+    </item>
+    
+  </channel>
+</rss>
