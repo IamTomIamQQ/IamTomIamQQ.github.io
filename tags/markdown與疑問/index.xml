@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>初學筆記 on 蛤！我是部落格嗎？</title>
-    <link>https://IamTomIamQQ.github.io/categories/%E5%88%9D%E5%AD%B8%E7%AD%86%E8%A8%98/</link>
-    <description>Recent content in 初學筆記 on 蛤！我是部落格嗎？</description>
+    <title>Markdown與疑問 on 蛤！我是部落格嗎？</title>
+    <link>https://IamTomIamQQ.github.io/tags/markdown%E8%88%87%E7%96%91%E5%95%8F/</link>
+    <description>Recent content in Markdown與疑問 on 蛤！我是部落格嗎？</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 06 Nov 2020 12:59:59 +0800</lastBuildDate><atom:link href="https://IamTomIamQQ.github.io/categories/%E5%88%9D%E5%AD%B8%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 12:59:59 +0800</lastBuildDate><atom:link href="https://IamTomIamQQ.github.io/tags/markdown%E8%88%87%E7%96%91%E5%95%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>嘿! 這是第二篇文章</title>
       <link>https://IamTomIamQQ.github.io/blog/post-ch/</link>
@@ -30,19 +30,6 @@ GSC失敗，救援資料
 同學你好，抱歉晚回了
 發生原因： Google Search Console 認證方法更新 收到建議：
   將 themes/liva-hugo/layouts/partials/footer.</description>
-    </item>
-    
-    <item>
-      <title>蛤! 原來這不是篇未來文章</title>
-      <link>https://IamTomIamQQ.github.io/blog/test/</link>
-      <pubDate>Sat, 31 Oct 2020 23:59:59 +0800</pubDate>
-      
-      <guid>https://IamTomIamQQ.github.io/blog/test/</guid>
-      <description>Hello World
-蛤我不是阿柴阿
-一級標題 二級標題 ######六級的蛤，但我沒有空格所以沒成功
-我不是阿柴我滿腦子疑問
- 阿柴你在哪裡 招喚阿柴 阿柴~~!</description>
     </item>
     
   </channel>

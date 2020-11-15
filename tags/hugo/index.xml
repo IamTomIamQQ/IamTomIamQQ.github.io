@@ -8,12 +8,28 @@
     <language>zh-tw</language>
     <lastBuildDate>Fri, 06 Nov 2020 12:59:59 +0800</lastBuildDate><atom:link href="https://IamTomIamQQ.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>蛤! 我的第二篇文章</title>
+      <title>嘿! 這是第二篇文章</title>
       <link>https://IamTomIamQQ.github.io/blog/post-ch/</link>
       <pubDate>Fri, 06 Nov 2020 12:59:59 +0800</pubDate>
       
       <guid>https://IamTomIamQQ.github.io/blog/post-ch/</guid>
-      <description>我是第二篇文章</description>
+      <description>我是第二篇文章
+Markdown小筆記(六個疑問待查)
+Markdown語法說明
+文字編輯  內文可直接key，但換行中間一律要多空一行 標題有六級大小最大就是一個# +文字(最小是六個#) 粗體：文字 斜體：文字  ＿提醒:文字無法設顏色；粗體斜體似乎不能合著用 Q疑問:行距是永遠固定的還是可以另外用CSS修改呢?</description>
+    </item>
+    
+    <item>
+      <title>第三篇文章</title>
+      <link>https://IamTomIamQQ.github.io/blog/post-ch2/</link>
+      <pubDate>Fri, 06 Nov 2020 12:59:59 +0800</pubDate>
+      
+      <guid>https://IamTomIamQQ.github.io/blog/post-ch2/</guid>
+      <description>操作筆記7
+GSC失敗，救援資料
+同學你好，抱歉晚回了
+發生原因： Google Search Console 認證方法更新 收到建議：
+  將 themes/liva-hugo/layouts/partials/footer.</description>
     </item>
     
     <item>

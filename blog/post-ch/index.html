@@ -29,6 +29,23 @@
   <link rel="icon" href="https://IamTomIamQQ.github.io/images/favicon.png " type="image/x-icon">
 
   
+  <!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-182327483-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
 </head><body>
 <!-- preloader start -->
 <div class="preloader">
@@ -93,12 +110,12 @@
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
+      <div class="col-lg-10 mx-auto">
         
         <a href="/categories/%e5%88%9d%e5%ad%b8%e7%ad%86%e8%a8%98"
           class="text-primary">初學筆記</a>
         
-        <h2>蛤! 我的第二篇文章</h2>
+        <h2>嘿! 這是第二篇文章</h2>
         <div class="mb-3 post-meta">
           <span>By Mr.蛤</span>
           
@@ -107,10 +124,65 @@
           
         </div>
         
-        <img src="https://IamTomIamQQ.github.io/images/%E6%9F%B4.png" class="img-fluid w-100 mb-4" alt="蛤! 我的第二篇文章">
+        <img src="https://IamTomIamQQ.github.io/images/%E6%9F%B4.png" class="img-fluid w-100 mb-4" alt="嘿! 這是第二篇文章">
         
         <div class="content mb-5">
           <p>我是第二篇文章</p>
+<p>Markdown小筆記(六個疑問待查)</p>
+<p>Markdown語法說明</p>
+<h2 id="文字編輯">文字編輯</h2>
+<ol>
+<li>內文可直接key，但換行中間一律要多空一行</li>
+<li>標題有六級大小最大就是一個# +文字(最小是六個#)</li>
+<li>粗體：<strong>文字</strong></li>
+<li>斜體：<em>文字</em>
+<ul>
+<li>＿提醒:文字無法設顏色；粗體斜體似乎不能合著用</li>
+<li>Q疑問:行距是永遠固定的還是可以另外用CSS修改呢?(待查)</li>
+</ul>
+</li>
+</ol>
+<h3 id="排序">排序</h3>
+<ol>
+<li>有序序列：數字+.+空白+文字</li>
+<li>無序序列：*+空白+文字</li>
+</ol>
+<ul>
+<li>＿提醒內插縮排序列：加上四個空格打(有序/無序)序列，以此類推
+<ol>
+<li>Q疑問：有序可以插無序，無序不能插有序？（這行就是）</li>
+</ol>
+</li>
+</ul>
+<h3 id="其他編輯">其他編輯</h3>
+<ul>
+<li>引用：&gt;+文字</li>
+<li>超連結：[呈現文字]+(網址或內址相對位置)
+<ul>
+<li>PS:提醒一下，內址不需要打出附檔名喔！</li>
+</ul>
+</li>
+<li>圖片：![呈現文字?]+(網址或內址相對位置)
+<ul>
+<li>PS:提醒一下，圖片時，反而必須打附檔名！</li>
+</ul>
+</li>
+</ul>
+<h4 id="程式碼">程式碼：</h4>
+<p>單行:如下用 <strong>`</strong> 間隔號左右包夾！</p>
+<p><code>程式碼</code></p>
+<p>多行：如下三行排列(若只是要簡單效果程式名稱可以不打)</p>
+<pre><code>　　间隔号三個+程式名稱
+
+　　程式碼
+
+　　间隔号三個
+</code></pre><ul>
+<li>疑問3:到底能不能單純縮排阿?</li>
+<li>疑問4: <strong>Hugo真的不能發未來文嗎?　(忍不住就記錄下來了)</strong></li>
+<li>疑問5: <strong>India字形的套用只能用在英文?</strong></li>
+<li>疑問6: <strong>圖片中括弧的文字到底是用來?</strong> alt?</li>
+</ul>
 
         </div>
 
@@ -142,59 +214,7 @@
 
 
 
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <a href="https://IamTomIamQQ.github.io"><img src="https://IamTomIamQQ.github.io/images/bone.png" alt="蛤！我是部落格嗎？"></a>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Contact Me</h6>
-        <ul class="list-unstyled">
-          <li class="mb-3"><a class="text-dark" href="tel:0900000000"><i
-                class="ti-mobile mr-3 text-primary"></i>0900000000</a></li>
-          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>浮耳磨砂</li>
-          <li class="mb-3"><a class="text-dark" href="mailto:iamtomiamqq@gmail.com"><i
-                class="ti-email mr-3 text-primary"></i>iamtomiamqq@gmail.com</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Social Contacts</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="https://github.com/IamTomIamQQ">github</a></li>
-          
-        </ul>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Categories</h6>
-        <ul class="list-unstyled">
-          <li class="mb-3"><a class="text-dark"
-              href="/categories/go-language">Go language</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/categories/programming-language">Programming language</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/categories/%e5%88%9d%e5%ad%b8%e7%ad%86%e8%a8%98">初學筆記</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Quick Links</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="https://IamTomIamQQ.github.io/about">About</a></li>
-          
-        </ul>
-      </div>
-      <div class="col-12 border-top py-4 text-center">
-        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
-      </div>
-    </div>
-  </div>
-</footer>
+
 
 <script>
   var indexURL = "https://IamTomIamQQ.github.io/index.json"
@@ -219,22 +239,6 @@
 <!-- Main Script -->
 
 <script src="https://IamTomIamQQ.github.io/js/script.min.js"></script>
-<!-- google analitycs -->
-<script>
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-  ga('create', 'UA-182327483-1', 'auto');
-  ga('send', 'pageview');
-</script>
 
 
 
